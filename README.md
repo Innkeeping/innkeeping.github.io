@@ -1,10 +1,6 @@
 ## Hi there 👋
 
 
-**Innkeeping/innkeeping** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ... NINIT, IMPS, MetaGame, Innkeepers Guild, MGIGS, dStudio
 - 🌱 I’m currently learning ... Scaffold Eth2, Solidity, EAS, ThreeJS/WebGL, ML
 - 👯 I’m looking to collaborate on ... Innovative web3 projects
