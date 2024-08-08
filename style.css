@@ -193,7 +193,7 @@ body {
   text-align:center;
   font-size:30px;
   font-family:shadows into light;
-  color:rgb(148, 12, 198);
+  color:whitesmoke;
    -webkit-transition:0.5s;
   transition:0.5s;
   cursor:pointer;
@@ -219,7 +219,7 @@ body {
   font-size:30px;
   text-align:center;
   font-family:shadows into light;
-  color:rgb(148, 12, 198);
+  color:whitesmoke;
    -webkit-transition:0.5s;
   transition:0.5s;
   cursor:pointer;
@@ -243,7 +243,7 @@ body {
   right:150px;
   text-align:center;
   font-family:shadows into light;
-  color:rgb(148, 12, 198);
+  color:whitesmoke;
    -webkit-transition:0.5s;
   transition:0.5s;
   cursor:pointer;
