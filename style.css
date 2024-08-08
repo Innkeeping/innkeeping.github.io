@@ -364,3 +364,81 @@ background: linear-gradient(to left, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Fi
 	}
 }
 
+.wrapper-small-triangles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    pointer-events: none;
+  }
+  
+  .small-triangles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .small-triangle {
+    fill: none;
+    stroke: #aded0d;
+    stroke-width: 2;
+    transform-origin: center center;
+    animation: small-triangle-animation 10s linear infinite;
+  }
+  
+  .small-triangle:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .small-triangle:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .small-triangle:nth-child(3) {
+    animation-delay: 2s;
+  }
+  
+  .small-triangle:nth-child(4) {
+    animation-delay: 3s;
+  }
+  
+  .small-triangle:nth-child(5) {
+    animation-delay: 4s;
+  }
+  
+  .small-triangle:nth-child(6) {
+    animation-delay: 5s;
+  }
+  
+  .small-triangle:nth-child(7) {
+    animation-delay: 6s;
+  }
+  
+  .small-triangle:nth-child(8) {
+    animation-delay: 7s;
+  }
+  
+  .small-triangle:nth-child(9) {
+    animation-delay: 8s;
+  }
+  
+  .small-triangle:nth-child(10) {
+    animation-delay: 9s;
+  }
+  
+  @keyframes small-triangle-animation {
+    0% {
+      transform: scale(0) rotate(0deg);
+      opacity: 1;
+      top: -100vh;
+    }
+    100% {
+      transform: scale(1) rotate(45deg);
+      opacity: 0;
+      top: 100vh;
+    }
+  }
