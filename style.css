@@ -442,3 +442,30 @@ background: linear-gradient(to left, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Fi
       top: 100vh;
     }
   }
+  .bottom-right-buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    margin: 33px;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #940cc6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #3B0CA6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0b8ebd;
+  }
