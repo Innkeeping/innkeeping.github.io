@@ -14,7 +14,7 @@ export default function App() {
               Hi, I'm <span className="text-primary">Innkeep</span> 👋
             </h1>
             <p className="text-xl text-base-content/80">
-              dev, project management, community management
+              Here's a quick place to see what I'm up to and to connect.
             </p>
           </BentoBox>
 
@@ -30,6 +30,9 @@ export default function App() {
             <h2 className="text-2xl font-bold text-base-content mb-4">Currently working on:</h2>
             <p className="text-base-content/80">
               web3 projects: integrating ipfs, evm, soulbound nft certification, refi, & moar
+            </p>
+            <p className="text-base-content/80">
+              do the things: dev, project management, community management
             </p>
           </BentoBox>
 

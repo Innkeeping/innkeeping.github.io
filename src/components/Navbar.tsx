@@ -35,7 +35,7 @@ export function Navbar() {
       </div>
       <div className="navbar-end gap-2">
         <ThemeToggle />
-        <a className="btn btn-primary">Download CV</a>
+        <w3m-button balance="hide"/>
       </div>
     </div>
   );
