@@ -1,4 +1,4 @@
-import React, {  StrictMode, ReactNode } from 'react'
+import {  StrictMode, ReactNode } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
